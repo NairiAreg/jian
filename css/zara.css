@@ -1,3 +1,52 @@
 .navbar {
-    justify-content: space-around;
+    padding: 30px;
+    font-family: fantasy;
 }
+
+header {
+    background-image: url("../bg2.png");
+    height: 100vh;
+}
+
+header .container {
+    height: calc(100vh - 160px);
+}
+
+.mainText {
+    position: relative;
+    font-family: fantasy;
+}
+.mainText > p {
+    font-size: 18px;
+}
+.jian {
+    font-size: 50px;
+}
+.jian > span {
+    font-size: 70px;
+    color: whitesmoke;
+}
+
+.but {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    width: 150px;
+    height: 40px;
+    background-color: #f0863f;
+    border-radius: 50px;
+    border: solid #f0863f;
+}
+
+.aboutUsfont {
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.aboutUsfont2 {
+    font-family: fantasy;
+    font-size: 18px;
+}
+
+
+
+
