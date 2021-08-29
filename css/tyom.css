@@ -69,3 +69,31 @@ align-items: center;
     100%{transform: rotate(0deg);} 
 }
 
+.conteiner-fluid{
+    position: relative;
+    }
+    .nkar{
+       position: absolute;
+       top: -7%;
+       left: 7%;
+       width: 168px;
+    }
+    .nkar1{
+        position: absolute;
+        bottom: 0;
+        right: 10%;
+    }
+    .row{
+        border: 4px solid #C4B682;
+        height: 420px;
+    }
+    .p-4{
+        z-index: 1;
+    }
+    
+    @media (max-width: 680px) {
+    .nkar1{
+        display: none;
+    }
+     }
+    
