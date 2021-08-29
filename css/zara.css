@@ -4,7 +4,7 @@
 }
 
 header {
-    background-image: url("../bg2.png");
+    background-image: url("../img/bg2.png");
     min-height: 100vh;
     background-size: cover;
 }
@@ -28,6 +28,24 @@ header .container {
     color: whitesmoke;
 }
 
+.aboutPage {
+    border: 3px solid #C4B682;
+}
+
+.aboutPage2 {
+    position: relative;
+}
+.jj1 {
+    position: absolute;
+    left: 22%;
+    width: 168px;
+}
+.jj2 {
+    position: absolute;
+    right: 25%;
+    bottom: 39px;
+}
+
 .but {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
@@ -36,16 +54,6 @@ header .container {
     background-color: #f0863f;
     border-radius: 50px;
     border: solid #f0863f;
-}
-
-.aboutUsfont {
-    font-family: fantasy;
-    font-size: 50px;
-}
-
-.aboutUsfont2 {
-    font-family: fantasy;
-    font-size: 18px;
 }
 
 .main{
