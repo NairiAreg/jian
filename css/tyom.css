@@ -1,3 +1,7 @@
+
+section{
+    margin-bottom: 100px;
+}
 .main{
    width: 100%;
     box-shadow: 1px 2px 1px 2px grey;
@@ -72,28 +76,32 @@ align-items: center;
 .conteiner-fluid{
     position: relative;
     }
-    .nkar{
+    .nkar1{
        position: absolute;
        top: -7%;
        left: 7%;
        width: 168px;
     }
-    .nkar1{
+    .nkar2{
         position: absolute;
         bottom: 0;
         right: 10%;
     }
-    .row{
+    .gic{
         border: 4px solid #C4B682;
-        height: 420px;
+        padding-top:100px;
     }
     .p-4{
         z-index: 1;
     }
     
-    @media (max-width: 680px) {
-    .nkar1{
+    @media (max-width: 600px) {
+    .nkar2{
         display: none;
     }
+     }
+
+     .aboutP{
+         padding-bottom: 1000px;
      }
     
